@@ -1,0 +1,58 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(33, 0, 48);
+    color: white;
+    text-align: center; /* Centraliza o texto horizontalmente */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+#perfio {
+    display: flex; /* Coloca as imagens e o texto lado a lado */
+    align-items: center; /* Alinha verticalmente no centro */
+    justify-content: center; /* Centraliza o conteúdo */
+    gap: 20px; /* Espaçamento entre as imagens e o texto */
+    margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+#perfio img {
+    width: 100px; /* Largura da imagem */
+    height: 100px; /* Altura da imagem */
+    border-radius: 50%; /* Torna a imagem redonda */
+    border: 2px solid white; /* Adiciona uma borda branca */
+    object-fit: cover; /* Ajusta a imagem para cobrir o espaço */
+}
+
+#Botoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(33, 0, 48);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%; /* Define uma largura proporcional ao corpo */
+    max-width: 500px; /* Limita a largura máxima */
+}
+
+#Botoes button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(100, 0, 150);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#Botoes button:hover {
+    background-color: rgb(150, 0, 200);
+    transform: scale(1.05);
+}
